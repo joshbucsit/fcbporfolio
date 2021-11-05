@@ -25,7 +25,7 @@
 
 <body>
 	<!-- navbar start -->
-	<nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+	<nav class="navbar navbar-expand-lg navbar-dark bg-secondary fixed-top">
 	  	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 	    <span class="navbar-toggler-icon"></span>
 	  	</button>
@@ -36,7 +36,7 @@
 		        	<a class="nav-link" href="#landing">Home</a>
 		      	</li>
 		      	<li class="nav-item">
-		        <a class="nav-link" href="#gallery">Gallery</a>
+		        <a class="nav-link" href="#projects">Projects</a>
 		      	</li>
 	    	</ul>
 	  	</div>
@@ -48,55 +48,127 @@
 		
 		<!-- start landing section -->
 		<section class="jumbotron text-center mt-3" id="landing">
-			<h1>Full Stack Web Developer</h1>
-			<p>
-				Hi my name is Josh Bucsit, an aspiring full stack web developer. I like solving problems with the help of technology, automation, etc. I love watching anime. Currently studying frond-end development.
-			</p>
-			<img class="img-fluid" src="images/profilepic.jpg" alt="My Profile Pic"/>
+			<div class="row ">
+				<div class="col-lg-12">
+					
+						<h1>Web Developer</h1>
+				</div>
+				
+			</div>
+			<div class="row">
+				<div class="col-lg-7">
+					<p class="intro">
+						Hi my name is Josh Bucsit, an aspiring full stack web developer. I like solving problems with the help of technology, automation, etc. I love watching anime. Currently studying frond-end development. Currently taking Bachelor of Science in Information Technology at Occidental Mindoro State College. I'have the <a href="https://www.freecodecamp.org/">FreeCodeCamp</a> course, Responsive Web Design.
+					</p>
+				</div>
+				<div class="col-lg-5">
+					<img class="img-fluid" src="images/profilepic.jpg" alt="My Profile Pic"/>
+				</div>
+				
+			</div>
 		</section>
+	</div>
 		<!-- end landing section -->
 
 		<!-- start gallery section -->
-		<section class="text-center bg-dark text-white" id="gallery">
-			<div class="tools">
-				<h2>Languages I Speak</h2>
+		<section class="text-center bg-dark text-white row" id="gallery">
+				<div class="tools col-lg-6">
+					<h2>Languages I Speak</h2>
+					<ul>
+						<li><span class="languages" style="display: inline-block;width: 150px;"> HTML</span>
+							<meter min="0" max="100" value="60"></meter>
+						</li>
+						<li><span class="languages" style="display: inline-block;width: 150px;">CSS</span>
+							<meter min="0" max="100" value="45"></meter>
+						</li>
+						<li><span class="languages" style="display: inline-block;width: 150px;">Bootsrap</span>
+							<meter min="0" max="100" value="30"></meter>
+						</li>
+						<li><span class="languages" style="display: inline-block;width: 150px;">Javascript</span>
+							<meter min="0" max="100" value="30"></li>
+						<li><span class="languages" style="display: inline-block;width: 150px;">PHP</span>
+							<meter min="0" max="100" value="20"></li>
+						<li><span class="languages" style="display: inline-block;width: 150px;">C++</span>
+							<meter min="0" max="100" value="30"></li>
+						<li><span class="languages" style="display: inline-block;width: 150px;">Java</span>
+							<meter min="0" max="100" value="30"></meter></li> 
+						<li><span class="languages" style="display: inline-block;width: 150px;">VB.Net</span>
+							<meter min="0" max="100" value="25"></meter></li>
+					</ul>
+				</div>
+				<div class="tools col-lg-6">
+					<h2>Tools I Use</h2>
+					<ul>
+						<li>Sublime Text</li>
+						<li>Git Bash/Terminal</li>
+						<li>Google Chrome</li>
+						<li>Github</li>
+						<li>Eclipse</li>
+						<li>DevC++</li>
+						<li>Visual Studio Code</li>
+						<li>Visual Studio</li>
+					</ul>
+				</div>
+			
+		</section>
+		<!-- end gallery section -->
+		<!-- start projects section -->
+		<section class="text-center row" id="projects">
+			<div class="card">
+				<h2>HTML/CSS/Bootstrap</h2>
 				<ul>
-					<li><span class="languages" style="display: inline-block;width: 150px;"> HTML</span>
-						<meter min="0" max="100" value="60"></meter>
-					</li>
-					<li><span class="languages" style="display: inline-block;width: 150px;">CSS</span>
-						<meter min="0" max="100" value="45"></meter>
-					</li>
-					<li><span class="languages" style="display: inline-block;width: 150px;">Bootsrap</span>
-						<meter min="0" max="100" value="30"></meter>
-					</li>
-					<li><span class="languages" style="display: inline-block;width: 150px;">Javascript</span>
-						<meter min="0" max="100" value="30"></li>
-					<li><span class="languages" style="display: inline-block;width: 150px;">PHP</span>
-						<meter min="0" max="100" value="20"></li>
-					<li><span class="languages" style="display: inline-block;width: 150px;">C++</span>
-						<meter min="0" max="100" value="45"></li>
-					<li><span class="languages" style="display: inline-block;width: 150px;">Java</span>
-						<meter min="0" max="100" value="45"></meter></li> 
+					<li>Portfolio - Zuitt/FreeCodeCamp</li>
+					<li> <a href="https://codepen.io/mangyancoding/full/OJgVRNJ"> Tribute Page </a></li>
+					<li> <a href="https://codepen.io/mangyancoding/full/RwgWEpE"> Survey Form  </a></li>
+					<li> <a href="https://codepen.io/mangyancoding/full/PojmoeL"> Landing Page </a></li>
 				</ul>
 			</div>
-			<div class="tools">
-				<h2>Tools I Use</h2>
+			<div class="card">
+				<h2>Javascript</h2>
 				<ul>
-					<li>Sublime Text</li>
-					<li>Git Bash/Terminal</li>
-					<li>Google Chrome</li>
-					<li>Github</li>
-					<li>Eclipse</li>
-					<li>DevC++</li>
-					<li>Visual Studio Code</li>
-					<li>Visual Studio</li>
+					<li>A Counter</li>
+					<li>BlackJack Game</li>
+					<li>Link Grabber</li>
+				</ul>
+			</div>
+			<div class="card">
+				<h2>PHP</h2>
+				<ul>
+					<li>A Simple CRUD</li>
+				</ul>
+			</div>
+			<div class="card">
+				<h2>C++/Java/VB</h2>
+				<ul>
+					<li>Subjects Task</li>
+					<li> Assignments </a></li>
+					<li> Lectures  </a></li>
 				</ul>
 			</div>
 		</section>
-		<!-- end gallery section -->
+		<!-- end projects section -->
 	</div>
-
+	<!-- footer -->
+	<footer class="footer-expand-lg bg-dark text-white">
+		<div class="footer-container">
+			<div>
+				<h1>Portfolio</h1>
+				<p>Copyright &copy; 2021</p>
+			</div>
+			<nav>
+				<ul>
+					<li><a href="#landing">Home</a></li>
+					<li><a href="#projects">Projects</a></li>
+				</ul>
+			</nav>
+			<div class="social">
+				<a href="#">Facebook</a>
+				<a href="#">Instagram</a>
+				<a href="#">Github</a>
+			</div>
+		</div>
+	</footer>
+	<!-- end footer -->
 	<!-- jQuery and Bootstrap Bundle (includes Popper) -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
